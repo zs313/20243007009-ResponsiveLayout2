@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <!--BLACK TOP-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Lab 1"
         android:background="#000000"
-        android:textColor="#FFFFFF"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Lab 1"
+        android:textColor="#FFFFFF" />
 
     <!--layout1-->
     <TextView
@@ -22,9 +21,9 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#FFFFFF"
+        android:gravity="center"
         android:text="Responsive Layout 1"
-        android:textColor="#000000"
-        android:gravity="center" />
+        android:textColor="#000000" />
 
     <!--four colour Textview-->
     <LinearLayout
@@ -37,39 +36,38 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="This"
             android:background="#FF0000"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="This"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="is"
             android:background="#0000FF"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="is"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="my"
             android:background="#673AB7"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="my"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="first"
             android:background="#FFFF00"
-            android:textColor="#000000"
-            android:gravity="center"/>
-</LinearLayout>
-
+            android:gravity="center"
+            android:text="first"
+            android:textColor="#000000" />
+    </LinearLayout>
 
 
     <!--Android Application-->
@@ -78,9 +76,9 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:background="#000000"
+        android:gravity="center"
         android:text="Android Application"
-        android:textColor="#FFFFFF"
-        android:gravity="center"/>
+        android:textColor="#FFFFFF" />
 
 
     <!--BOTTOM button-->
@@ -88,20 +86,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
         android:background="#FFFFFF"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Change"/>
+            android:text="Change" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cancel"/>
+            android:text="Cancel" />
     </LinearLayout>
 </LinearLayout>
 
