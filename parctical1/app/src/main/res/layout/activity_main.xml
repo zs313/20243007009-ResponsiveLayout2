@@ -39,37 +39,41 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FF0000"
+            android:background="#@color/red_panel"
             android:gravity="center"
-            android:text="This"
-            android:textColor="#FFFFFF" />
+            android:text="@string/word_this"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0000FF"
+            android:background="@color/blue_panel"
             android:gravity="center"
-            android:text="is"
-            android:textColor="#FFFFFF" />
+            android:text="@string/word_is"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#673AB7"
+            android:background="@color/purple_panel"
             android:gravity="center"
-            android:text="my"
-            android:textColor="#FFFFFF" />
+            android:text="@string/word_my"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFF00"
+            android:background="@color/yellow_panel"
             android:gravity="center"
-            android:text="first"
-            android:textColor="#000000" />
+            android:text="@string/word_first"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
     </LinearLayout>
 
 
