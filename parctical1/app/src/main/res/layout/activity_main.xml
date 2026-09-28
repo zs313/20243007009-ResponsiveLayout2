@@ -82,10 +82,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="#000000"
+        android:background="@color/black"
         android:gravity="center"
-        android:text="Android Application"
-        android:textColor="#FFFFFF" />
+        android:text="@string/application_title"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
 
 
     <!--BOTTOM button-->
@@ -93,21 +95,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#FFFFFF"
+        android:background="@color/white"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
             android:layout_weight="1"
-            android:text="Change" />
+            android:text="@string/change_button" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:text="Cancel" />
+            android:text="@string/cancel_button" />
     </LinearLayout>
 </LinearLayout>
 
